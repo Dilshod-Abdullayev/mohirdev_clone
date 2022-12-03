@@ -36,7 +36,9 @@
   color: rgb(0, 145, 255);
 }
 .login__modal_close{
-  width: 100%;
+  font-size: 35px;
+  position: relative;
+  bottom: 50px;
+  left: 150px;
   height: 30px;
-  background-color: red;
 }

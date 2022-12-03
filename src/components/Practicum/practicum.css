@@ -1,0 +1,19 @@
+.practicum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.practicum__text h1 {
+  text-align: center;
+  font-size: 35px;
+  line-height: 24px;
+  font-weight: 900;
+}
+.practicum__text p {
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 25px;
+}
+hr {
+  margin-top: 30px;
+}
