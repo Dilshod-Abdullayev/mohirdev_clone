@@ -1,15 +1,14 @@
 import React from "react";
-import { practicum } from '../../Data/Data'
-  
-const Practicums = () => {
+import { practicum } from "../../Data/Data";
 
+const Practicums = () => {
   return (
-    <div>
-       {
-        practicum.map((val)=>(
-          <h1>{val.id}</h1>
-        ))
-       }
+    <div className='practicum__courses'>
+      {practicum.map((val) => (
+        <div className='practicum__course' key={val.id  }>
+           <a href={val.link}> <img src={val.img}/> </a>
+        </div>
+      ))}
     </div>
   );
 };

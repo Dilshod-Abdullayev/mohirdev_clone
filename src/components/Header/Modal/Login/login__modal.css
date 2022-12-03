@@ -7,6 +7,9 @@
   align-items: center;
   padding: 0 30px;
 }
+.login__modal:active{
+  transition: 0.3s ease;
+}
 .login__modal h2 {
   font-size: 40px;
   color: rgb(86, 86, 86);

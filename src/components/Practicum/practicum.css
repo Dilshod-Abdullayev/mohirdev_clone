@@ -5,7 +5,7 @@
 }
 .practicum__text h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 24px;
   font-weight: 900;
 }
@@ -16,4 +16,28 @@
 }
 hr {
   margin-top: 30px;
+}
+.practicum__courses {
+  margin-top: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.practicum__course {
+  
+  margin: 10px;
+  margin-left: 20px;
+}
+.practicum__course img {
+  -webkit-box-shadow: 4px 16px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 16px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 16px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 380px;
+  border-radius: 30px;
+}
+.practicum__course img:hover {
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+  scale: 0.98;
+  cursor: pointer;
 }
