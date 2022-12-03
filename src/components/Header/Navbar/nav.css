@@ -1,0 +1,52 @@
+.logo{
+    padding-top: 20px;
+    width: 130px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__left{
+    width: 45%;
+    display: flex;
+    border-color: red;
+}
+.nav-items{
+    margin-left: 30px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    color: white;
+    margin-left: 50px;
+    font-weight: 100;
+}
+.auth{
+    margin-top: 10px;
+    width: 250px;
+    height: 37px;
+    background-color: transparent;
+    display: flex;
+    border: 1px solid white;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.login button,.sign button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+@media (min-width:1200px){
+    .nav__left{
+        width: 65%;
+    }
+}
