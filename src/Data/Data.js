@@ -1,5 +1,4 @@
-const Data = () => {
-  const practicum = [
+ export const practicum = [
     {
       id: 1,
       img: "https://s3-alpha-sig.figma.com/img/a747/3a92/32d9bdcf1c707599b8b73cf17594e2b5?Expires=1670803200&Signature=eg39qfyXsI2XVYPZqlsxbg~rDGqzxseYnsFbXm1vrH64xAK4z4fQqp4iBURcDkc8CNSXPmeW1mTuURXPwCRg79QseerhOpRvBqvIjUerQqR2w3YBP1HUXbY8gwLvnTTK-XeS0kc5EDl8BkWf19EtiwdGwa3EAu~gN177SoDEqGpr9QgTYEI5oa4UpzGDrbSza816QcblzdSW7iqtueyHF5NWyu4VZliC936Tk0Sr~w8h16Un2lS7woa3gXQ4Uj7NIBJ9t52x7uPC6cWo0TU74gEoTsvZ6MSYtxRe0kwD-Pzq-~ikE7utcSsFyk5oMw89yUgJJJRvFy8kcU2UJsZjXA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
@@ -68,5 +67,3 @@ const Data = () => {
       img: "https://s3-alpha-sig.figma.com/img/b270/1da4/3dbae0725681a338f44eb53688d46887?Expires=1670803200&Signature=QRT0wrMce5KRD81PYg0q3zeM76h0pPab~AYRPTR7yfEszvbn1XiWh28hGX6YkkiAfH3pbhBiH6W27csXkYNZV8x3lqziXmtNlYBKTqazXhjpNmQu~DsRVdU9Zp8X4bd5g6ex0li8L~aUKS1hQavUwstJZe~GfdywyFr-jgDyzJ6iDf3XYoLbB-ffQHLZatjSQoKnlFXPZROV2vgM884ypALHUOriEV295gTq69TrL2q~M0pau7QAlRGaG6UMRFE2lX129ROw-u-G9xc6ysy2b5jjuucEYiQzVuxXGYHfxCWVmEHFXGHMCi6WMAh5tioB9bYt6NY7XqPzMS-zqqL4-g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
     },
   ];
-};
-export default Data;

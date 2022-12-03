@@ -1,14 +1,15 @@
 import React from "react";
-import Data from "../../Data/Data";;
-
+import { practicum } from '../../Data/Data'
   
 const Practicums = () => {
 
   return (
     <div>
-      {practicum.map((item) => {
-        <img key={item.id} src={item.img} />;
-      })}
+       {
+        practicum.map((val)=>(
+          <h1>{val.id}</h1>
+        ))
+       }
     </div>
   );
 };
